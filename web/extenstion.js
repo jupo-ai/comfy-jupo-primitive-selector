@@ -63,14 +63,6 @@ const extension = {
         // initializeUI
         // --------------------------------------
         nodeType.prototype.initializeUI = function() {
-            // ヘッダー
-            // const header = new HeaderWidget("header");
-            // this.addCustomWidget(header);
-
-            // スペーサー
-            const spacerTop = new SpacerWidget("spacerTop", { top: 4, bottom: 4 });
-            this.addCustomWidget(spacerTop);
-
             const spacer = new SpacerWidget("spacer", { top: 4, bottom: 4 });
             this.addCustomWidget(spacer);
 
@@ -127,7 +119,7 @@ const extension = {
         // clearAllWidgets
         // --------------------------------------
         nodeType.prototype.clearAllWidgets = function() {
-            this.widgets = this.widget.filter(w => w.name === "values");
+            this.widgets = this.widgets.filter(w => w.name === "values");
         };
 
         // --------------------------------------
