@@ -1,7 +1,7 @@
 import { api } from "../../scripts/api.js";
 
 const author = "jupo";
-const packageName = "PrimitiveSwitch";
+const packageName = "PrimitiveSelector";
 
 export function mk_name(name) {
     return `${author}.${packageName}.${name}`;

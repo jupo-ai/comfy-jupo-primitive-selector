@@ -1,13 +1,13 @@
-# comfy-jupo-primitive-switch
+# comfy-jupo-primitive-selector
 
-<img src="https://ul.h3z.jp/IETgruJh.png" height=400>
+<img src="https://ul.h3z.jp/oVW2T48O.png" height=400>
 
 定数スイッチ
 
 ## Install
 1. custom_nodesフォルダにリポジトリをクローン
    ```
-   git clone https://github.com/jupo-ai/comfy-jupo-primitive-switch.git
+   git clone https://github.com/jupo-ai/comfy-jupo-primitive-selector.git
    ```
 
 

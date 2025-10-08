@@ -2,7 +2,7 @@ from functools import wraps
 from server import PromptServer
 
 author = "jupo"
-packageName = "PrimitiveSwitch"
+packageName = "PrimitiveSelector"
 category = f"{author}/{packageName}"
 
 

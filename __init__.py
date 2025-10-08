@@ -6,9 +6,9 @@ class Extension(ComfyExtension):
     @override
     async def get_node_list(self):
         return [
-            nodes.IntSwitch, 
-            nodes.FloatSwitch, 
-            nodes.StringSwitch, 
+            nodes.IntSelector, 
+            nodes.FloatSelector, 
+            nodes.StringSelector, 
         ]
 
 

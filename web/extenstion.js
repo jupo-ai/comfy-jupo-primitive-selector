@@ -1,7 +1,6 @@
 import { app } from "../../scripts/app.js";
 import { mk_name } from "./utils.js";
 import { applyContextMenuPatch } from "./context_menu_patch.js";
-import { HeaderWidget } from "./widgets/header.js";
 import { SpacerWidget } from "./widgets/spacer.js";
 import { ButtonWidget } from "./widgets/button.js";
 import { PresetWidget } from "./widgets/preset.js";
@@ -9,9 +8,9 @@ import { showDialog } from "./ui.js";
 
 
 const classNames = [
-    mk_name("IntSwitch"), 
-    mk_name("FloatSwitch"), 
-    mk_name("StringSwitch"), 
+    mk_name("IntSelector"), 
+    mk_name("FloatSelector"), 
+    mk_name("StringSelector"), 
 ];
 
 

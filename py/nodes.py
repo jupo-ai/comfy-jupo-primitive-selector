@@ -10,12 +10,12 @@ def get_enabled_value(values: list[dict], default=None):
     return default
 
 
-class IntSwitch(io.ComfyNode):
+class IntSelector(io.ComfyNode):
     @classmethod
     def define_schema(cls):
         return io.Schema(
-            node_id=mk_name("IntSwitch"), 
-            display_name="Int Switch", 
+            node_id=mk_name("IntSelector"), 
+            display_name="Int Selector", 
             category=category, 
             inputs=[io.String.Input("values", multiline=True)], 
             outputs=[io.Int.Output()]
@@ -30,12 +30,12 @@ class IntSwitch(io.ComfyNode):
 
 
 
-class FloatSwitch(io.ComfyNode):
+class FloatSelector(io.ComfyNode):
     @classmethod
     def define_schema(cls):
         return io.Schema(
-            node_id=mk_name("FloatSwitch"), 
-            display_name="Float Switch", 
+            node_id=mk_name("FloatSelector"), 
+            display_name="Float Selector", 
             category=category, 
             inputs=[io.String.Input("values", multiline=True)], 
             outputs=[io.Float.Output()]
@@ -49,12 +49,12 @@ class FloatSwitch(io.ComfyNode):
 
 
 
-class StringSwitch(io.ComfyNode):
+class StringSelector(io.ComfyNode):
     @classmethod
     def define_schema(cls):
         return io.Schema(
-            node_id=mk_name("StringSwitch"), 
-            display_name="String Switch", 
+            node_id=mk_name("StringSelector"), 
+            display_name="String Selector", 
             category=category, 
             inputs=[io.String.Input("values", multiline=True)], 
             outputs=[io.String.Output()]
